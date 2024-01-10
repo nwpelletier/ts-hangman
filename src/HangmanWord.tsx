@@ -18,7 +18,7 @@ export function HangmanWord({ guessedLetters, wordToGuess, reveal = false}:
                 fontFamily: "monospace"
             }}
         >
-            {wordToGuess.split("").map((letter, index) => (
+            {wordToGuess.split("").map((letter) => (
                 <span style={{ borderBottom: ".1em solid black" }}>
                     <span
                         style={{
